@@ -11,6 +11,10 @@ int main(int argc, char *argv[])
     if (translator.load(":/qml_fi.qm"))
         app.installTranslator(&translator);
 
+    //Loads a .qm file using a QLocale
+    /*if (translator.load(QLocale(), "qml", "_",":/", ".qm"))
+        app.installTranslator(&translator);*/
+
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qt/qml/Translations/Main.qml"));
 
