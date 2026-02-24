@@ -22,7 +22,7 @@ Translations_Section5b: Example to demonstrate how to use the CMake API for tran
 
 Translations_Section6: Example to demonstrate how to prepare the C++ source code for dynamic translations when using a class exposed to QML. Tested with with Qt 6.7.2 MinGW 64-bit.
 
-## Resouces
+## Resources
 
 If you need additional help, the following resources may be helpful:
 
